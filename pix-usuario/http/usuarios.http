@@ -1,0 +1,20 @@
+### salvar
+POST http://localhost:8080/usuarios
+Content-Type: application/json
+
+< ./request-alice.json
+
+### listar
+GET http://localhost:8080/usuarios
+
+### atualizar
+PUT http://localhost:8080/usuarios/63ff65b84a96551ae20384dc
+Content-Type: application/json
+
+< ./request-bob.json
+
+### remover
+DELETE http://localhost:8080/usuarios/63ff65b84a96551ae20384dc
+
+### stream
+GET http://localhost:8080/usuarios/ultimos
