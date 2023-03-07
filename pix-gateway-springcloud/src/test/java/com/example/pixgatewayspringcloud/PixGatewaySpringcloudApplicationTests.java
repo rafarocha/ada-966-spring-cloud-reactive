@@ -1,12 +1,12 @@
-package com.example.pixusuario;
+package com.example.pixgatewayspringcloud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
-class PixUsuarioApplicationTests {
+@SpringBootTest
+class PixGatewaySpringcloudApplicationTests {
 
-    //@Test
+    @Test
     void contextLoads() {
     }
 
